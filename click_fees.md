@@ -1,5 +1,12 @@
 Best Fee Management System POC
+
+There is no other report for the vulnerable.
+
+[CVE SEARCH link](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Best+Fee+Management+System)
+![image](https://github.com/movonow/demo/assets/39987032/77c9f56a-a37f-4850-8a69-5fd021128358)
+
 ---
+
 ## Vulnerability Type
 CWE-264: Permissions, Privileges, and Access Controls
 
@@ -10,6 +17,9 @@ There must be access control for the sentitive interfaces.
 Allows an attacker to gain full control of the system information.
 
 ## Proof of Concept
+
+
+## Exploit
 Setup: `pip install httpx`
 
 ```python
