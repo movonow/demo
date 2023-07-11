@@ -16,7 +16,9 @@ CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL
 There must be user input validation before used in an SQL command.
 
 ## Impact
-Allows an attacker to bypass user authentication and gain system information.
+Allows an attacker to bypass user authentication and manipulate system information.
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 
 ## Proof of Concept
 The `username` is indeed validated in login page, but only on client side, which can be bypassed.
